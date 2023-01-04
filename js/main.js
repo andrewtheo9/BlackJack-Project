@@ -36,4 +36,4 @@ function shuffleDeck() {
 
 
 generateDeck()
-renderDeck()
+shuffleDeck()
