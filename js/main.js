@@ -105,9 +105,6 @@ function hitButtonClick(event) {
   cardEl.className = "card " + card.suit + card.face;
   document.querySelector(".player-cards").append(cardEl);
   playerScore = getPlayerCardScore(card, playerScore) + playerScore;
-  if (playerScore > 21) {
-    stayBtnEl.removeEventListener("click", stayButtonClick);
-  }
 }
 
 function stayButtonClick(event) {
@@ -165,7 +162,6 @@ function newGame() {
   dealerScore = 0;
   deck = [];
   hitBtnEl.addEventListener("click", hitButtonClick);
-  stayBtnEl.addEventListener("click", stayButtonClick);
   //remove the cards from the previous game on the table
   //clear out the .player-card div and .dealer-card div
   removeElementsByClass();
