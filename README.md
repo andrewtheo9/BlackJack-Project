@@ -6,22 +6,22 @@
 
 The game that I decided to make was blackjack, because it is a game that I am very familiar with. To play, the player clicks the "New Game" button and the cards are then deal to the player and dealer. The player goes first, and may choose to "Hit" (draw a new card), or "Stay" (have their hand remain and wait for the dealer's move). Face cards are 10, Aces are 11 or 1, and the numbered cards are valued at their actual number. The goal is to not go above a score of 21, while also trying to have a higher score than the dealer.
 
-https://imgur.com/OKEMxdP
+<img src="https://imgur.com/OKEMxdP">
 
-https://imgur.com/LT9j3sI
+<img src="https://imgur.com/LT9j3sI">
 
-https://imgur.com/Vfa9sey
+<img src="https://imgur.com/Vfa9sey">
 
-https://imgur.com/JUYJiUL
+<img src="https://imgur.com/JUYJiUL">
 
 **Technologies used:
 1. HTML
 2. CSS
 3. JavaScript
 
-Play my game: https://andrewtheo9.github.io/Blackjack-Project/
+**Play my game: https://andrewtheo9.github.io/Blackjack-Project/
 
-Future Improvements:
+**Future Improvements:
 1. Render messages indicating the winner, a push, or if player gets blackjack.
 2. Make dealer's first card face down
 3. Allow player to split their hand
