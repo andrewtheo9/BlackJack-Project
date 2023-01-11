@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: darkmagenta;
+    font-family: 'Francois One', sans-serif;
+    font-size: 60px;
+    margin-top: 0%;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(45, 121, 228, 0.679);
+    display: block;
+    margin: auto;
+}
+
+section {
+    align-items: center;
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+}
+
+.dealer-hand {
+    text-align: center;
+    color: darkmagenta;
+    font-size: 20px;
+    font-family: 'Francois One', sans-serif;
+    margin: 0%;
+    position: relative;
+    top: -15px;
+}
+
+.dealer-cards {
+    height: 200px;
+    width: 450px;
+    align-items: center;
+    display: inline-block;
+    flex-direction: grid;
+    position: relative;
+}
+
+
+.player-cards {
+    width: 450px;
+    height: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+    align-items: center;
+    flex-direction: grid;
+}
+
+.your-hand {
+    font-size: 20px;
+    font-family: 'Francois One', sans-serif;
+    color: darkmagenta;
+}
+
+
+#hit-button {
+    height: 35px;
+    width: 70px;
+    background-color: green;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: large;
+}
+
+#stay-button {
+    height: 35px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: large;
+}
+
+#new-game-button {
+    height: 35px;
+    color: white;
+    background-color: hotpink;
+    font-family: 'Francois One', sans-serif;
+    font-size: large;
+}

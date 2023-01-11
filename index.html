@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack</title>
     <link rel="stylesheet" href="css/card-deck-css/css/cardstarter.css">
-    <script src="js/main.js" defer> </script>
+    <link rel="stylesheet" href="css/card-deck-css/css/main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <h1>Blackjack</h1>
-    <h2></h2>
-    <div id="dealer-cards"></div>
-    <div id="player-cards"></div>
-    <button id="hit">Hit</button>
-    <button id="stay">Stay</button>
-    
+    <section>
+        <h1>BLACKJACK</h1>
+        <div class="dealer-hand">Dealer's Hand</div>
+        <div class="dealer-cards"></div>
+        <div class="your-hand">Your Hand</div>
+        <div class="player-cards"></div>
+        <div class="buttons">
+            <button id="hit-button">Hit</button>
+            <button id="stay-button">Stay</button>
+            <button id="new-game-button">New Game</button>
+        </div>
+    </section>
 </body>
 </html>
