@@ -6,7 +6,7 @@
 
 The game that I decided to make was blackjack, because it is a game that I am very familiar with. To play, the player clicks the "New Game" button and the cards are then deal to the player and dealer. The player goes first, and may choose to "Hit" (draw a new card), or "Stay" (have their hand remain and wait for the dealer's move). Face cards are 10, Aces are 11 or 1, and the numbered cards are valued at their actual number. The goal is to not go above a score of 21, while also trying to have a higher score than the dealer.
 
-"https://imgur.com/OKEMxdP"
+<img src="https://i.imgur.com/OKEMxdP.png">
 
 "https://imgur.com/LT9j3sI"
 
