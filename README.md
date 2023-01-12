@@ -8,11 +8,11 @@ The game that I decided to make was blackjack, because it is a game that I am ve
 
 <img src="https://i.imgur.com/OKEMxdP.png">
 
-"https://imgur.com/LT9j3sI"
+<img src="https://i.imgur.com/LT9j3sI.png">
 
-"https://imgur.com/Vfa9sey"
+<img src="https://i.imgur.com/Vfa9sey.png">
 
-"https://imgur.com/JUYJiUL"
+<img src="https://i.imgur.com/JUYJiUL.png">
 
 **Technologies used:
 1. HTML
